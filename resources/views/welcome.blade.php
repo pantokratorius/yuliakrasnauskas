@@ -12,11 +12,11 @@
 
 <body>
 
-<?php for($i=1; $i < 14; $i++){ ?>
+@for($i=1; $i < 14; $i++)
 
-    <img src="images/<?=$i?>.jpg" />
+    <img src="images/{{ $i }}.jpg" />
 
-<?php }?>
+@endfor
 
 
 
