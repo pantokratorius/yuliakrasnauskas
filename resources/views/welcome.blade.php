@@ -9,7 +9,7 @@
 </head>
 
 <body>
-{{  'test' }}
+
 @for($i=1; $i < 14; $i++)
 
     <img src="images/{{ $i }}.jpg" />
